@@ -19,7 +19,7 @@ An interactive Power BI dashboard and written analytical report on a Banque Misr
 
 ## Data model
 
-A star schema built from five source files (Customers, Accounts, Transactions, Loans, Branches) plus a date table.
+A Galaxy schema built from five source files (Customers, Accounts, Transactions, Loans, Branches) plus a date table.
 
 - **Facts:** `FactTransactions`, `FactAccounts`, `FactLoans`
 - **Dimensions:** `DimCustomers`, `DimBranches`, `DimDate`
@@ -76,7 +76,7 @@ banque-misr-powerbi-dashboard/
 │   ├── loans.png
 │   ├── branches.png
 │   └── data-model.png
-└── data/            (only if you are allowed to share it)
+
 ```
 
 ## How to open it
@@ -88,8 +88,3 @@ banque-misr-powerbi-dashboard/
 ## Tools
 
 Power BI Desktop, DAX, Power Query, HTML and CSS (via the HTML Content visual).
-
-## Author
-
-**[Your Name]**, Data Analyst
-[LinkedIn](https://www.linkedin.com/in/your-profile) | [Email](mailto:your@email.com)
