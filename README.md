@@ -66,10 +66,7 @@ banque-misr-powerbi-dashboard/
 │   └── BanqueMisr.pbix
 ├── report/
 │   └── BanqueMisr_Analytical_Report.pdf
-├── dax/
-│   └── Banque_Misr_HTML_charts.dax.txt
 ├── images/
-│   ├── landing.png
 │   ├── overview.png
 │   ├── customers.png
 │   ├── transactions.png
